@@ -12,7 +12,7 @@ Vivace Macro is distributed in the hope that it will be useful. This does not gi
 You should have received a copy of the license along with Vivace Macro. If not, please redownload from an official source.
 */
 
-SetBatchLines, -1
+
 SoundPlay, ebk.mp3
 ImageFile := "gDura.png"
 Gui, Add, Picture, x0 y0 w400 h200 +Background, bin\%ImageFile%
@@ -232,7 +232,7 @@ Start:
                                         PixelSearch, Px, Py, 400, 363, 410, 365, 0x4A799C, 25, Fast
                                         if Errorlevel = 1
                                         {
-                                             send {d 20}
+                                             sendinput {d 20}
                                         }
                                    }
                                    ImageSearch, FoundX, FoundY, 367, 240, 441, 319, *60, %A_ScriptDir%\bin\e.bmp
@@ -241,7 +241,7 @@ Start:
                                         PixelSearch, Px, Py, 400, 363, 410, 365, 0x4A799C, 25, Fast
                                         if Errorlevel = 1
                                         {
-                                             send {e 20}
+                                             sendinput {e 20}
                                         }
                                    }
                                    ImageSearch, FoundX, FoundY, 367, 240, 441, 319, *60, %A_ScriptDir%\bin\q.bmp
@@ -250,7 +250,7 @@ Start:
                                         PixelSearch, Px, Py, 400, 363, 410, 365, 0x4A799C, 25, Fast
                                         if Errorlevel = 1
                                         {
-                                             send {q 20}
+                                             sendinput {q 20}
                                         }
                                    }
                                    ImageSearch, FoundX, FoundY, 367, 240, 441, 319, *60, %A_ScriptDir%\bin\s.bmp
@@ -259,7 +259,7 @@ Start:
                                         PixelSearch, Px, Py, 400, 363, 410, 365, 0x4A799C, 25, Fast
                                         if Errorlevel = 1
                                         {
-                                             send {s 20}
+                                             sendinput {s 20}
                                         }
                                    }
                                    ImageSearch, FoundX, FoundY, 367, 240, 441, 319, *60, %A_ScriptDir%\bin\w.bmp
@@ -268,7 +268,7 @@ Start:
                                         PixelSearch, Px, Py, 400, 363, 410, 365, 0x4A799C, 25, Fast
                                         if Errorlevel = 1
                                         {
-                                             send {w 20}
+                                             sendinput {w 20}
                                         }
                                    }
                                    ImageSearch, FoundX, FoundY, 367, 240, 441, 319, *60, %A_ScriptDir%\bin\x.bmp
@@ -277,7 +277,7 @@ Start:
                                         PixelSearch, Px, Py, 400, 363, 410, 365, 0x4A799C, 25, Fast
                                         if Errorlevel = 1
                                         {
-                                             send {x 20}
+                                             sendinput {x 20}
                                         }
                                    }
                                    ImageSearch, FoundX, FoundY, 367, 240, 441, 319, *60, %A_ScriptDir%\bin\z.bmp
