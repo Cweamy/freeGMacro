@@ -12,7 +12,7 @@ Vivace Macro is distributed in the hope that it will be useful. This does not gi
 
 You should have received a copy of the license along with Vivace Macro. If not, please redownload from an official source.
 */
-SoundP
+
 SetWorkingDir, %A_ScriptDir%
 SoundPlay, ebk.mp3
 Msgbox P for Pause`nEnd for close macro
