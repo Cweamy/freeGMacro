@@ -12,8 +12,7 @@ Vivace Macro is distributed in the hope that it will be useful. This does not gi
 You should have received a copy of the license along with Vivace Macro. If not, please redownload from an official source.
 */
 
-SendMode Input
-SetWorkingDir, %A_ScriptDir%
+SetBatchLines, -1
 SoundPlay, ebk.mp3
 ImageFile := "gDura.png"
 Gui, Add, Picture, x0 y0 w400 h200 +Background, bin\%ImageFile%
